@@ -19,7 +19,7 @@ import WatchListFilters from './watchListFilters';
 import WatchListSwitch from './watchListSwitch';
 import NoResults from 'components/NoResults';
 import AssetDisplayer from 'components/AssetDisplayer';
-import { DefaultAsset } from 'ui/Asset';
+import { DefaultAsset } from 'UI/Asset';
 const assetsPerPage = 12;
 
 class WatchListPage extends React.Component {

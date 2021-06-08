@@ -23,7 +23,7 @@ import {
 } from 'constants/app';
 import { TERMS_OF_SERVICE } from 'constants/termsOfService';
 import { withTermsOfServiceContext } from 'components/TermsOfServiceContext';
-import Panel from 'ui/Panel';
+import Panel from 'UI/Panel';
 import BN from 'bignumber.js';
 
 BN.config({ EXPONENTIAL_AT: 80 });

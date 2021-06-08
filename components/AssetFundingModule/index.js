@@ -21,8 +21,8 @@ import { calculateSlippage } from 'constants/calculateSlippage';
 
 BN.config({ EXPONENTIAL_AT: 80 });
 
-const GAS_FUNDING = require('@mybit-v2/network.js/gas').buyAssetOrderERC20;
-const GAS_APPROVE = require('@mybit-v2/network.js/gas').approve;
+const GAS_FUNDING = require('@mwood77/network.js/gas').buyAssetOrderERC20;
+const GAS_APPROVE = require('@mwood77/network.js/gas').approve;
 
 class AssetFundingModule extends React.Component {
   constructor(props) {

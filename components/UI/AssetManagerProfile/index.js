@@ -2,7 +2,7 @@ import React from 'react';
 import dayjs from 'dayjs';
 import styled, { css } from 'styled-components';
 import CheckMark from 'static/ic_unreal.svg';
-import Divider from 'ui/Divider';
+import Divider from 'UI/Divider';
 
 const AssetManagerProfileDataWrapper = styled.div`
   display: grid;

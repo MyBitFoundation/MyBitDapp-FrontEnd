@@ -6,11 +6,11 @@ import {
   CarouselSlideParagraph,
   CarouselNextButton,
 } from 'components/CarouselSlide/';
-import TextAreaWithLabel from 'ui/TextAreaWithLabel';
+import TextAreaWithLabel from 'UI/TextAreaWithLabel';
 import {
   DEFAULT_TOKEN,
 } from 'constants/app';
-import NumericInput from 'ui/NumericInput';
+import NumericInput from 'UI/NumericInput';
 
 const TextAreaWrapper = styled.div`
   margin-bottom: 10px;

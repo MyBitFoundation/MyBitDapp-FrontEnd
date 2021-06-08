@@ -17,9 +17,9 @@ import {
 } from 'constants/app';
 import { withMetamaskContext, useMetamaskContext } from 'components/MetamaskContext';
 import TokenSelector from 'components/TokenSelector';
-import NumericInput from 'ui/NumericInput';
+import NumericInput from 'UI/NumericInput';
 import Spin from 'static/spin.svg';
-import TooltipWithQuestionMarkGrey from 'ui/TooltipWithQuestionMarkGrey';
+import TooltipWithQuestionMarkGrey from 'UI/TooltipWithQuestionMarkGrey';
 
 const formatter = value => `${value}%`;
 

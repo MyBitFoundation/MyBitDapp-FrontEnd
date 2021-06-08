@@ -37,6 +37,9 @@ Note, this is an Alpha version which may not be well tested. Features in this ve
 
 ## Read before you contribute
 
+### NodeJS
+Project only supports use of Node 10.
+
 ### Environment Variables
 
 Please create a `.env` file in the root of the project. See [here](https://en.wikipedia.org/wiki/Environment_variable) about environment variables.

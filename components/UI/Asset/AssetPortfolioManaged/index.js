@@ -9,7 +9,7 @@ import { formatMonetaryValue } from 'utils/helpers';
 import {
   FundingStages,
 } from 'constants/fundingStages';
-import ValueDisplay from 'ui/ValueDisplay';
+import ValueDisplay from 'UI/ValueDisplay';
 import AssetPortfolioManagedWrapper from './assetPortfolioManagedWrapper';
 import AssetPortfolioManagedSection from './assetPortfolioManagedSection';
 import AssetPortfolioManagedButtons from './assetPortfolioManagedButtons';

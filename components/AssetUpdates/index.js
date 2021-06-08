@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Comment, List } from 'antd';
 import dayjs from 'dayjs';
-import Panel from 'ui/Panel';
+import Panel from 'UI/Panel';
 
 const AssetUpdatesTitle = styled.p`
   font-size: 20px;

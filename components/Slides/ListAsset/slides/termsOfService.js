@@ -5,7 +5,7 @@ import {
   CarouselSlideParagraph,
   CarouselNextButton,
 } from 'components/CarouselSlide/';
-import AlertMessage from 'ui/AlertMessage';
+import AlertMessage from 'UI/AlertMessage';
 import { TERMS_OF_SERVICE } from 'constants/termsOfService';
 
 const InformationWrapper = styled.div`

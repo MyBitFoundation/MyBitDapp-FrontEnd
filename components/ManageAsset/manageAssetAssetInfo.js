@@ -6,7 +6,7 @@ import {
 import Fee from 'static/fee.png';
 import PieChart from 'static/chart-pie.svg';
 import LineChart from 'static/chart-line.svg';
-import ValueDisplay from 'ui/ValueDisplay';
+import ValueDisplay from 'UI/ValueDisplay';
 import AssetTemplate from 'ui/Asset/AssetTemplate';
 import ManageAssetWrapper from './manageAssetWrapper';
 import ManageAssetProfitSectionWrapper from './manageAssetProfitSectionWrapper';

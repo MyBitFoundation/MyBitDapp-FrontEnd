@@ -14,9 +14,9 @@ import {
   DEFAULT_TOKEN,
 } from 'constants/app';
 
-import TokenBalanceItem from 'ui/TokenBalanceItem';
+import TokenBalanceItem from 'UI/TokenBalanceItem';
 import TokenSelectorSearch from './tokenSelectorSearch';
-import Separator from 'ui/Separator';
+import Separator from 'UI/Separator';
 import TokenSelectorSearchWrapper from './tokenSelectorSearchWrapper';
 import TokenSelectorAmount from './tokenSelectorAmount';
 import TokenSelectorNoResults from './tokenSelectorNoResults';

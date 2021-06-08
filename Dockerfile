@@ -15,6 +15,6 @@ WORKDIR /usr/src/app
 COPY --from=dependencies /dependencies/node_modules ./node_modules
 COPY . .
 RUN npm run build
-RUN npm run compile-server
+# RUN npm run compile-server - > @todo: unsure if still used, causes build failures in 2021.
 EXPOSE 8081
 ENTRYPOINT ["npm", "run", "start"]

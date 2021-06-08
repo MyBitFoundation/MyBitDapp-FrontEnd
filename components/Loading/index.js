@@ -5,7 +5,7 @@ import Spin from 'static/spin.svg';
 import LoadingWrapper from './loadingWrapper';
 import LoadingMessage from './loadingMessage';
 import GoBackTextAndArrow from 'components/GoBackTextAndArrow';
-import BackButton from 'ui/BackButton';
+import BackButton from 'UI/BackButton';
 
 const Loading = ({ message, hasBackButton, oldBackButton }) => (
   <div>

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import TooltipWithQuestionMarkGrey from 'ui/TooltipWithQuestionMarkGrey';
+import TooltipWithQuestionMarkGrey from 'UI/TooltipWithQuestionMarkGrey';
 
 const TooltipWrapper = styled(TooltipWithQuestionMarkGrey)`
   margin-left: 5px;

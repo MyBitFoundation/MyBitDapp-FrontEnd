@@ -1,12 +1,12 @@
 import Router from 'next/router';
-import Watch from 'ui/Watch';
+import Watch from 'UI/Watch';
 import AssetTemplateWrapper from './assetTemplateWrapper';
 import AssetTemplateImageHolder from './assetTemplateImageHolder';
 import AssetTemplateLocationIcon from './assetTemplateLocationIcon';
 import AssetTemplateName from './assetTemplateName';
 import AssetTemplateLocation from './assetTemplateLocation';
 import RevenueGenerator from 'components/RevenueGenerator';
-import InvestmentLabel from 'ui/InvestmentLabel';
+import InvestmentLabel from 'UI/InvestmentLabel';
 
 const AssetTemplate = ({
   children,

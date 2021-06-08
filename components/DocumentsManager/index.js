@@ -4,7 +4,7 @@ import {
   Button,
   Icon,
 } from 'antd';
-import UploadButton from 'ui/UploadButton';
+import UploadButton from 'UI/UploadButton';
 import {
   MAX_FILES_UPLOAD,
   MAX_FILE_SIZE,

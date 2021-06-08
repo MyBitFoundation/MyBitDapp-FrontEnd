@@ -4,7 +4,7 @@ import {
   Modal,
 } from 'antd';
 import styled from 'styled-components';
-import NumericInput from 'ui/NumericInput';
+import NumericInput from 'UI/NumericInput';
 import {
   DEFAULT_TOKEN_MAX_DECIMALS,
   DEFAULT_TOKEN,

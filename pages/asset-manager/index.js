@@ -3,7 +3,7 @@ import {
   Slides,
 } from 'components/Slides/AssetManager/slides';
 
-import CarouselWithNavigation from 'ui/CarouselWithNavigation';
+import CarouselWithNavigation from 'UI/CarouselWithNavigation';
 
 const SliderNavigationTooltips = [
   { slide: 0, tooltip: 'KYC' },

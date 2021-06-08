@@ -29,12 +29,12 @@ import BN from 'bignumber.js';
 
 BN.config({ EXPONENTIAL_AT: 80 });
 
-const GAS = require('@mybit-v2/network.js/gas');
+const GAS = require('@mwood77/network.js/gas');
 
 let Network;
 
 export const initialiseSDK = (contractAddresses, blockNumber) => {
-  Network = require('@mybit-v2/network.js')(window.web3js, contractAddresses, blockNumber);
+  Network = require('@mwood77/network.js')(window.web3js, contractAddresses, blockNumber);
 };
 
 export const fetchTransactionHistory = async userAddress => new Promise(async (resolve, reject) => {

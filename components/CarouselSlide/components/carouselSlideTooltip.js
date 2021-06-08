@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
-import Tooltip from 'ui/Tooltip';
+import Tooltip from 'UI/Tooltip';
 import questionTooltip from "static/list-asset/questionTooltip.png";
-import TooltipWithQuestionMark from 'ui/TooltipWithQuestionMark';
+import TooltipWithQuestionMark from 'UI/TooltipWithQuestionMark';
 
 const TooltipWrapper = styled(TooltipWithQuestionMark)`
   font-size: 10px;

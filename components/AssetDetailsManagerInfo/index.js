@@ -6,18 +6,18 @@ import AssetDetailsManagerInfoTitle from './assetDetailsManagerInfoTitle';
 import AssetDetailsManagerInfoAddress from './assetDetailsManagerInfoAddress';
 import AssetDetailsManagerInfoPercentages from './assetDetailsManagerInfoPercentages';
 import ThreeBoxProfile from 'components/ThreeBoxProfile';
-import ValueDisplay from 'ui/ValueDisplay';
+import ValueDisplay from 'UI/ValueDisplay';
 import MyBitLogo from 'static/mybit-blue.svg';
 import Sliders from 'static/sliders.svg';
 import { InternalLinks } from 'constants/links';
 import { getPlatformToken } from 'constants/app';
-import AssetManagerProfile from 'ui/AssetManagerProfile';
+import AssetManagerProfile from 'UI/AssetManagerProfile';
 import {
   formatMonetaryValue,
 } from 'utils/helpers';
 import Theming from 'components/Theme/theming';
-import Divider from 'ui/Divider';
-import Panel from 'ui/Panel';
+import Divider from 'UI/Divider';
+import Panel from 'UI/Panel';
 import { useMetamaskContext } from 'components/MetamaskContext';
 
 const Colors = Theming.colors;

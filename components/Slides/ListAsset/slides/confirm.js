@@ -4,14 +4,14 @@ import {
   CarouselSlideMainTitle,
   CarouselSlideParagraph,
 } from 'components/CarouselSlide/';
-import AlertMessage from 'ui/AlertMessage';
+import AlertMessage from 'UI/AlertMessage';
 import {
   getPlatformToken,
 } from 'constants/app';
 import {
   formatValueForToken,
 } from 'utils/helpers';
-import TermsAndConditions from 'ui/TermsAndConditions';
+import TermsAndConditions from 'UI/TermsAndConditions';
 import { useMetamaskContext } from 'components/MetamaskContext';
 
 const InformationWrapper = styled.div`

@@ -5,7 +5,7 @@ import {
   InputNumber, Button, Select, Form,
 } from 'antd';
 import getConfig from 'next/config';
-import AlertMessage from 'ui/AlertMessage';
+import AlertMessage from 'UI/AlertMessage';
 import {
   CarouselSlide,
   CarouselSlideMainTitle,

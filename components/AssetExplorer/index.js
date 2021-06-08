@@ -10,13 +10,13 @@ import ExploreFiltersSwitch from './exploreFiltersSwitch';
 import {
   FundingStages,
 } from 'constants/fundingStages';
-import { SORT_BY_ASSETS } from 'constants/sortByAssets';
+import { SORT_BY_ASSETS } from 'constants/sortByAssets';
 import {
   getValueFromLocalStorage,
   setValueLocalStorage,
 } from 'utils/helpers';
-import { Categories } from 'constants/categories';
-import { DefaultAsset } from 'ui/Asset';
+import { Categories } from 'constants/categories';
+import { DefaultAsset } from 'UI/Asset';
 
 class AssetExplorer extends React.Component {
   constructor(props) {
@@ -110,24 +110,32 @@ class AssetExplorer extends React.Component {
     } = this.props;
 
     const { fundingActive } = this.state;
-    let assetsFiltered = assets.slice();
+    
     const {
       selectedFilters,
       sortByFilterSelected,
     } = this.state;
+    let assetsFiltered;
 
-    // filter by categories and whether active
-    assetsFiltered = assetsFiltered.filter((asset) => {
-      if (((fundingActive && asset.fundingStage === FundingStages.IN_PROGRESS && !asset.pastDate) || (!fundingActive && (asset.funded || asset.pastDate)))) {
-        return true;
+    /**
+     * @todo - altered assetsFiltered declation as part of reqs for issue #600.
+     */
+    if ( assets !== undefined ) {
+      let assetsFiltered = assets.slice();
+      // filter by categories and whether active
+      assetsFiltered = assetsFiltered.filter((asset) => {
+        if (((fundingActive && asset.fundingStage === FundingStages.IN_PROGRESS && !asset.pastDate) || (!fundingActive && (asset.funded || asset.pastDate)))) {
+          return true;
+        }
+        return false;
+      });
+      // handle sorting
+      if (sortByFilterSelected) {
+        const compareTo = SORT_BY_ASSETS.filter(sort => sort.name === sortByFilterSelected)[0].compare;
+        assetsFiltered = assetsFiltered.sort(compareTo);
       }
-      return false;
-    });
-
-    // handle sorting
-    if (sortByFilterSelected) {
-      const compareTo = SORT_BY_ASSETS.filter(sort => sort.name === sortByFilterSelected)[0].compare;
-      assetsFiltered = assetsFiltered.sort(compareTo);
+    } else {
+      assetsFiltered = [];
     }
 
     return (

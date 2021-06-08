@@ -1,5 +1,5 @@
 import Router from 'next/router';
-import Address from 'ui/Address';
+import Address from 'UI/Address';
 import Balance from 'components/Balance';
 import MobileAccountInfoBalance from './mobileAccountInfoBalance';
 import MobileAccountInfoNoAccount from './mobileAccountInfoNoAccount';

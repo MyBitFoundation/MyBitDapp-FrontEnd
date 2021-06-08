@@ -17,7 +17,7 @@ import Theme from 'components/Theme';
 import MobileMenu from 'components/MobileMenu';
 import Cookie from 'js-cookie';
 import Router from 'next/router';
-import Footer from 'ui/Footer';
+import Footer from 'UI/Footer';
 import { navbarOptions } from 'constants/navigationBar';
 import { FULL_SCREEN_PAGES } from 'constants/fullScreenPages';
 import { COOKIES } from 'constants/cookies';
@@ -53,6 +53,8 @@ class MyApp extends App {
   setNetwork = network => this.setState({ network })
 
   setUserHasMetamask = userHasMetamask => this.setState({ userHasMetamask })
+  
+  setUserIsLoggedIn = userIsLoggedIn => this.setState({ userIsLoggedIn })
 
   prefetchPages = () => {
     Router.prefetch('/onboarding');
@@ -92,20 +94,22 @@ class MyApp extends App {
 
   render() {
     const { Component, pageProps, router } = this.props;
-    const { mobileMenuOpen, network, userHasMetamask } = this.state;
+    const { mobileMenuOpen, network, userHasMetamask, userIsLoggedIn } = this.state;
 
     const isFullScreenPage = FULL_SCREEN_PAGES.includes(router.pathname);
 
     return (
-      <Container>
+      <React.Fragment>
         <GlobalStyle />
         <Head />
         <Theme>
           <WithProviders
             setNetwork={this.setNetwork}
             setUserHasMetamask={this.setUserHasMetamask}
+            setUserIsLoggedIn={this.setUserIsLoggedIn}
             network={network}
             userHasMetamask={userHasMetamask}
+            userIsLoggedIn={userIsLoggedIn}
           >
             <Notifications />
             <MobileMenu
@@ -128,13 +132,13 @@ class MyApp extends App {
             </MobileMenu>
           </WithProviders>
         </Theme>
-      </Container>
+      </React.Fragment>
     );
   }
 }
 
 const WithProviders = ({
-  children, setNetwork, network, setUserHasMetamask, userHasMetamask,
+  children, setNetwork, network, setUserHasMetamask, userHasMetamask, setUserIsLoggedIn, userIsLoggedIn
 }) => (
   <NotificationsProvider>
     <AirtableProvider
@@ -150,6 +154,7 @@ const WithProviders = ({
           supportedNetworks={SUPPORTED_NETWORKS}
           setNetwork={setNetwork}
           setUserHasMetamask={setUserHasMetamask}
+          setUserIsLoggedIn={setUserIsLoggedIn}
         >
           <AssetsProvider>
             <BlockchainProvider

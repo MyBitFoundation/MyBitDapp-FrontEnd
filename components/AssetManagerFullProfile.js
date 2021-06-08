@@ -2,14 +2,14 @@ import styled from 'styled-components';
 import Media from 'react-media';
 import AssetExplorer from 'components/AssetExplorer';
 import Loading from 'components/Loading';
-import AssetManagerProfile from 'ui/AssetManagerProfile';
+import AssetManagerProfile from 'UI/AssetManagerProfile';
 import ThreeBoxProfile from 'components/ThreeBoxProfile';
 import Theming from 'components/Theme/theming';
 import {
   ExternalLinks,
 } from 'constants/links';
 import { Sizes } from 'components/Theme/mediaQueries';
-import Divider from 'ui/Divider';
+import Divider from 'UI/Divider';
 import GoBackTextAndArrow from 'components/GoBackTextAndArrow';
 import {
   formatMonetaryValue,
@@ -17,7 +17,7 @@ import {
 } from 'utils/helpers';
 import { getPlatformToken } from 'constants/app';
 import ErrorPage from 'components/ErrorPage';
-import PageTitle from 'ui/PageTitle';
+import PageTitle from 'UI/PageTitle';
 
 const Colors = Theming.colors;
 

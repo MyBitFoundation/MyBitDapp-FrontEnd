@@ -17,7 +17,7 @@ import {
   formatMonetaryValue,
 } from 'utils/helpers';
 
-import AssetManagerTooltip from 'ui/AssetManagerTooltip';
+import AssetManagerTooltip from 'UI/AssetManagerTooltip';
 import { useMetamaskContext } from 'components/MetamaskContext';
 
 const Container = styled.div`
@@ -88,8 +88,6 @@ const AssetDefault = ({
           />
         )}
       </div>
-
-      <Container>
         <ProfileContainer>
           <AssetManagerTooltip
             totalAssets={totalAssets}
@@ -119,7 +117,6 @@ const AssetDefault = ({
             {buttonText}
           </AssetDefaultContributeButton>
         </Link>
-      </Container>
     </AssetDefaultDetailsContainer>
   );
 };

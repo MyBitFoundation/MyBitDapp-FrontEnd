@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 import { memo } from 'react';
 import Item from './Item';
-import LabelWithTooltip from 'ui/LabelWithTooltip';
+import LabelWithTooltip from 'UI/LabelWithTooltip';
 
 const FundingDetailsWrapper = styled.div`
   display: grid;

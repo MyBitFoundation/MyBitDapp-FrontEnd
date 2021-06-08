@@ -20,7 +20,7 @@ import {
 } from './errorMessages';
 import ErrorPage from 'components/ErrorPage';
 import DocumentsManager from 'components/DocumentsManager';
-import BackButton from 'ui/BackButton';
+import BackButton from 'UI/BackButton';
 import GeneralDescriptionEditor from 'components/GeneralDescriptionEditor';
 
 const COLUMN_SIZE = {

@@ -1,6 +1,6 @@
 import React from 'react';
 import QuestionTooltip from "static/info.svg";
-import Tooltip from 'ui/Tooltip';
+import Tooltip from 'UI/Tooltip';
 
 const TooltipWithQuestionMarkGrey = (props) => (
   <Tooltip tooltipProps={{...props}}>

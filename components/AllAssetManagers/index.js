@@ -4,7 +4,7 @@ import {
 } from 'antd';
 import Loading from 'components/Loading';
 import GetColumns from 'constants/assetManagers';
-import PageTitle from 'ui/PageTitle';
+import PageTitle from 'UI/PageTitle';
 
 const TableWrapper = styled.div`
   table a:focus{

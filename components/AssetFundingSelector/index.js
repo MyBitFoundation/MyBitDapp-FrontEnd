@@ -1,8 +1,8 @@
-import AssetDeadline from 'ui/AssetDeadline';
-import AssetFundingDetails from 'ui/AssetFundingDetails';
+import AssetDeadline from 'UI/AssetDeadline';
+import AssetFundingDetails from 'UI/AssetFundingDetails';
 import FundingCalculator from 'components/FundingCalculator';
 import AssetFundingButton from 'components/AssetFunding/assetFundingButton';
-import Separator from 'ui/Separator';
+import Separator from 'UI/Separator';
 import AssetFundingSelectorFooter from './assetFundingSelectorFooter';
 
 const separatorStyleFullWidth = {

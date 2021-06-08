@@ -1,7 +1,7 @@
 import Router from 'next/router';
 import Link from 'next/link';
 import { Icon } from 'antd';
-import Tooltip from 'ui/Tooltip';
+import Tooltip from 'UI/Tooltip';
 import CarouselWithNavigationContainer from './carouselWithNavigationContainer';
 import CarouselWithNavigationSlide from './carouselWithNavigationSlide';
 import CarouselWithNavigationNavButton from './carouselWithNavigationNavButton';

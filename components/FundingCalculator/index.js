@@ -10,7 +10,7 @@ import {
   formatMonetaryValue,
   getDecimalsForToken,
 } from 'utils/helpers';
-import NumericInput from 'ui/NumericInput';
+import NumericInput from 'UI/NumericInput';
 import FundingCalculatorTitle from './fundingCalculatorTitle';
 import FundingCalculatorEqualsSeparator from './fundingCalculatorEqualsSeparator';
 import FundingCalculatorLabel from './fundingCalculatorLabel';
@@ -19,7 +19,7 @@ import FundingCalculatorValue from './fundingCalculatorValue';
 import FundingCalculatorSpin from './fundingCalculatorSpin';
 import FundingCalculatorGrid from './fundingCalculatorGrid';
 import FundingCalculatorSliderLabel from './fundingCalculatorSliderLabel';
-import TooltipWithQuestionMarkGrey from 'ui/TooltipWithQuestionMarkGrey';
+import TooltipWithQuestionMarkGrey from 'UI/TooltipWithQuestionMarkGrey';
 const decimalsForDefaultToken = getDecimalsForToken(DEFAULT_TOKEN);
 
 const PLATFORM_FEE = MYBIT_FOUNDATION_SHARE * 100;

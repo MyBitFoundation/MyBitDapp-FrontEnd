@@ -2,14 +2,14 @@ import {
   Button,
 } from 'antd';
 import styled, { css } from 'styled-components';
-import Separator from 'ui/Separator';
+import Separator from 'UI/Separator';
 import AssetFundingTitle from 'components/AssetFunding/assetFundingTitle';
 import AssetFundingConfirmListWrapper from './assetFundingConfirmListWrapper';
 import AssetFundingConfirmTotalLabel from './assetFundingConfirmTotalLabel';
 import TokenSelector from 'components/TokenSelector';
 import AssetFundingConfirmDropdownButton from './assetFundingConfirmDropdownButton';
 import AssetFundingConfirmPayWith from './assetFundingConfirmPayWith';
-import TermsAndConditions from 'ui/TermsAndConditions';
+import TermsAndConditions from 'UI/TermsAndConditions';
 import AssetFundingFooter from './assetFundingFooter';
 import Item, { AssetFundingConfirmItemValue } from './Item';
 import {
@@ -35,7 +35,7 @@ import {
   fromWeiToEth,
 } from 'utils/helpers';
 import AssetFundingButton from 'components/AssetFunding/assetFundingButton';
-import LabelWithTooltip from 'ui/LabelWithTooltip';
+import LabelWithTooltip from 'UI/LabelWithTooltip';
 
 const separatorStyleFullWidth = {
   position: 'absolute',

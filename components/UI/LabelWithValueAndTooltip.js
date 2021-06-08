@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import TooltipWithQuestionMark from 'ui/TooltipWithQuestionMark';
+import TooltipWithQuestionMark from 'UI/TooltipWithQuestionMark';
 
 const Wrapper = styled.div`
   display: flex;

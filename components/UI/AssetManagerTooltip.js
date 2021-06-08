@@ -3,8 +3,8 @@ import styled, { createGlobalStyle } from 'styled-components';
 import {
   Tooltip,
 } from 'antd';
-import AssetManagerProfile from 'ui/AssetManagerProfile';
-import Divider from 'ui/Divider';
+import AssetManagerProfile from 'UI/AssetManagerProfile';
+import Divider from 'UI/Divider';
 
 const GlobalStyle = createGlobalStyle`
   .AssetManagerTooltip .ant-tooltip-inner{

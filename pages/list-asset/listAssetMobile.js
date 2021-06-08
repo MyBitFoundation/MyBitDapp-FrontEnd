@@ -1,4 +1,4 @@
-import CarouselWithNavigation from 'ui/CarouselWithNavigation';
+import CarouselWithNavigation from 'UI/CarouselWithNavigation';
 import {
   IntroSlide,
   AvailableAssetsSlide,

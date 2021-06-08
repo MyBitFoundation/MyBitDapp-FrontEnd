@@ -5,8 +5,8 @@ import Router from 'next/router';
 import {
   Button,
 } from 'antd';
-import ValueDisplay from 'ui/ValueDisplay';
-import { PortfolioAsset, ManagedAsset } from 'ui/Asset';
+import ValueDisplay from 'UI/ValueDisplay';
+import { PortfolioAsset, ManagedAsset } from 'UI/Asset';
 import PieChart from 'static/chart-pie.svg';
 import LineChart from 'static/chart-line.svg';
 import Sliders from 'static/sliders.svg';

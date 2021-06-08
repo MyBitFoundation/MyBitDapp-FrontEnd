@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import Logo from 'components/Logo';
 import Balance from 'components/Balance';
 import ConnectionStatus from 'components/ConnectionStatus';
-import { Consumer as BancorConsumer } from 'ui/BancorContainer';
+import { Consumer as BancorConsumer } from 'UI/BancorContainer';
 import AppHeaderContainer from './appHeaderContainer';
 import AppHeaderLogo from './appHeaderLogo';
 import AppHeaderHamburguerButton from './appHeaderHamburguerButton';

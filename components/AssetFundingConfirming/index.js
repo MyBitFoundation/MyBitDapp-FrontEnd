@@ -2,7 +2,7 @@ import Link from 'next/link';
 import AssetFundingTitle from 'components/AssetFunding/assetFundingTitle';
 import AssetFundingButton from 'components/AssetFunding/assetFundingButton';
 import AssetFundingConfirmingMessage from './assetFundingConfirmingMessage';
-import Separator from 'ui/Separator';
+import Separator from 'UI/Separator';
 
 const separatorStyleFullWidth = {
   position: 'absolute',

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import ChangesButtonWithLabel from 'components/ChangesButtonWithLabel';
-import TextAreaWithLabel from 'ui/TextAreaWithLabel';
+import TextAreaWithLabel from 'UI/TextAreaWithLabel';
 import { withBlockchainContext } from 'components/BlockchainContext';
 
 const Wrapper = styled.div`

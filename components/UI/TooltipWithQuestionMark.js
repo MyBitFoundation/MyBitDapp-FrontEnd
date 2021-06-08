@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import questionTooltip from "static/list-asset/questionTooltip.png";
-import Tooltip from 'ui/Tooltip';
+import Tooltip from 'UI/Tooltip';
 
 const Img = styled.img`
   width: 20px;
